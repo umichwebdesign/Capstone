@@ -89,6 +89,7 @@ section h1{
  	text-shadow: 25% 20% 30% #212121;	
  	text-transform: uppercase;
  	margin: 5% 0 4% 0;
+	padding-bottom: 3%;
 }
  
 .quote{
@@ -156,7 +157,7 @@ section .btntwo{
 
 @keyframes slide{
 	20%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-		url(https://t4.ftcdn.net/jpg/03/08/76/47/240_F_308764707_oUdwpH79aYwS4l7ZoBLmRPXWPkm12RIg.jpg);}
+		url(https://img.freepik.com/free-photo/full-length-portrait-concentrated-fit-sportswoman_171337-10248.jpg?size=338&ext=jpg&uid=A&ga=GA1.2.1454936676.1593013282);}
 
 	40%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
 		url(https://img.freepik.com/free-photo/portrait-attractive-young-woman-doing-yoga-pilates-exercise_1153-5147.jpg?size=338&ext=jpg&uid=A&ga=GA1.2.1454936676.1593013282);}
