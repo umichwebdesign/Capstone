@@ -1,0 +1,689 @@
+@media only screen and (min-width: 320px){
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans',sans-serif;
+
+}
+
+.laptop{
+	display: none;
+}
+
+.mobile .logo{
+	width: 100%;
+	height: 15vh;
+	padding-top: 3%;
+	background: rgba(0,0,0,0.3);
+	color: #ffff;
+	font-size: 350%;
+	justify-content: space-between;
+	display: flex;
+	text-transform: uppercase;
+	align-items: center;
+	padding-left: 40vw;
+}
+
+.a{
+	font-size: 150%;
+	color: #fff;
+	text-align: right;
+}
+
+.a:hover {
+	color: #00b894;
+}
+
+.h{
+	display: block;
+	background: rgba(0,0,0,0.1);
+	text-decoration: none;
+	color: #fff;
+	font-size: 150%;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.h:hover{
+	color: #f1eea6;
+}
+
+.c{
+	font-size: 150%;
+	text-decoration: none;
+	display: block;
+	background: rgba(0,0,0,0.1);
+	color: #e61c25;
+	text-align: right;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.c:hover{
+	color: #00b894;
+}
+
+main{
+ 	width: 100%;
+ 	height: 85vh;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	text-align: center;
+ 	color: #fff;
+ }
+
+ section h3{
+ 	font-size: 175%;
+ 	font-weight: 200;
+ 	letter-spacing: 25%;
+ 	text-transform: uppercase;
+ 	text-shadow: 1px 1px 5px #212121;
+ }
+
+section h1{
+	font-size: 225%;
+ 	font-weight: 700;
+ 	text-shadow: 25% 20% 30% #212121;	
+ 	text-transform: uppercase;
+ 	margin: 5% 0 4% 0;
+}
+ 
+.quote{
+	display: none
+}
+
+section  a{
+	padding: 2% 3%;
+	margin: 5%;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 150%;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1%;
+	transition: all .5s ease;
+}
+
+section .btnone{
+	background: #fff;
+	color: #000;
+}
+
+.btnone:hover{
+	background: #00b894;
+	color: #fff;
+}
+section .btntwo{
+	background: #fff;
+	color: #000;
+}
+
+.btntwo:hover{
+	background: #00b894;
+	color: #fff;
+}
+
+.change_content:after{
+	content: '';
+	animation: changetext 5s infinite linear;
+	color: #00b894;
+}
+
+	@keyframes changetext{
+	0%{ content: "Jogging"; }
+	20%{ content: "Dancing"; }
+	40%{ content: "weight lifting"; }
+	60%{ content: "yoga"; }
+	80%{ content: "stretching"; }
+	100%{ content: " tai chi "; }
+}
+
+.slider{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+	url(https://img.freepik.com/free-photo/young-sportive-woman-doing-exercises-with-jumping-rope-white_176420-7781.jpg?size=338&ext=jpg&uid=A&ga=GA1.2.1454936676.1593013282);
+	background-size: cover;	 
+	background-repeat: no-repeat;
+	animation: slide 5s infinite;
+}
+
+@keyframes slide{
+	20%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://t4.ftcdn.net/jpg/03/08/76/47/240_F_308764707_oUdwpH79aYwS4l7ZoBLmRPXWPkm12RIg.jpg);}
+
+	40%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/portrait-attractive-young-woman-doing-yoga-pilates-exercise_1153-5147.jpg?size=338&ext=jpg&uid=A&ga=GA1.2.1454936676.1593013282);}
+
+	60%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/sporty-woman-doing-aerobic-exercise_155003-311.jpg?size=338&ext=jpg&uid=A&ga=GA1.2.1454936676.1593013282);}
+
+	80%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/beautiful-young-woman-running-green-park-sunny-summer-day_1153-5106.jpg?size=338&ext=jpg&uid=A&ga=GA1.2.1454936676.1593013282);}
+
+	100%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://t3.ftcdn.net/jpg/02/97/28/02/240_F_297280269_JmOaeZ9o4V4sXKbjin5oFmfA2IqKMyeV.jpg);}
+
+}
+
+
+}
+
+/*************************************************************************************************************************/
+
+@media only screen and (min-width: 992px){
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans',sans-serif;
+
+}
+
+.laptop{
+	display: none;
+}
+
+.mobile .logo{
+	width: 100%;
+	padding-top: 5%;
+	height: 15vh;
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+	font-size: 450%;
+	justify-content: space-between;
+	display: flex;
+	text-transform: uppercase;
+	align-items: center;
+	padding-left: 40vw;
+}
+
+.a{
+	font-size: 350%;
+	text-align: right;
+}
+
+.a:hover{
+	color: #00b894;
+}
+
+.h{
+	display: block;
+	background: rgba(0,0,0,0.1);
+	text-decoration: none;
+	color: #fff;
+	font-size: 350%;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.h:hover{
+	color: #f1eea6;
+}
+
+.c{
+	font-size: 450%%;
+	text-decoration: none;
+	display: block;
+	background: rgba(0,0,0,0.1);
+	color: #bd0b13;
+	text-align: right;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.c:hover{
+	color: #00b894;
+}
+
+main{
+ 	width: 100%;
+ 	height: 85vh;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	text-align: center;
+ 	color: #fff;
+ }
+
+ section h3{
+ 	font-size: 275%;
+ 	font-weight: 200;
+ 	letter-spacing: 25%;
+ 	text-transform: uppercase;
+ 	text-shadow: 1px 1px 5px #212121;
+ }
+
+section h1{
+	font-size: 250%;
+ 	font-weight: 700;
+ 	text-shadow: 25% 20% 30% #212121;	
+ 	text-transform: uppercase;
+ 	margin: 5% 0 4% 0;
+}
+
+.quote{
+	display: block;
+	font-size: 150%;
+	padding-bottom: 5%;
+}
+
+section  a{
+	padding: 2% 3%;
+	margin: 5%;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 100%;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1%;
+	transition: all .5s ease;
+}
+
+section .btnone{
+	background: #fff;
+	color: #000;
+}
+
+.btnone:hover{
+	background: #00b894;
+	color: #fff;
+}
+section .btntwo{
+	background: #fff;
+	color: #000;
+}
+
+.btntwo:hover{
+	background: #00b894;
+	color: #fff;
+}
+
+.change_content:after{
+	content: '';
+	animation: changetext 5s infinite linear;
+	color: #00b894;
+}
+
+	@keyframes changetext{
+	0%{ content: "Jogging"; }
+	20%{ content: "Dancing"; }
+	40%{ content: "weight lifting"; }
+	60%{ content: "yoga"; }
+	80%{ content: "stretching"; }
+	100%{ content: " tai chi "; }
+}
+
+.slider{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+	url(https://img.freepik.com/free-photo/woman-training-with-weights_23-2148435340.jpg?size=626&ext=jpg&uid=A&ga=GA1.2.1454936676.1593013282);
+	background-size: cover;	 
+	background-repeat: no-repeat;
+	animation: slide 5s infinite;
+}
+
+@keyframes slide{
+	20%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/sportswoman-crouch-start-dark_23-2147752878.jpg?size=626&ext=jpg&uid=A&ga=GA1.2.1454936676.1593013282);}
+
+	40%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/active-young-woman-training-outdoor_23-2148381886.jpg?size=626&ext=jpg&uid=A&ga=GA1.2.1454936676.1593013282);}
+
+	60%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/woman-lifting-dumbbell-gym_23-2147778563.jpg?size=626&ext=jpg&uid=A&ga=GA1.2.1454936676.1593013282);}
+
+	80%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/athletic-woman-doing-push-ups-kettle-ball_23-2147949601.jpg?size=626&ext=jpg&uid=A&ga=GA1.2.1454936676.1593013282);}
+
+	100%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/front-view-sporty-woman-doing-exercises_23-2148499238.jpg?size=626&ext=jpg&uid=A&ga=GA1.2.1454936676.1593013282);}
+
+}
+
+
+}
+/*************************************************************************************************************************/
+@media only screen and (min-width: 1200px){
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans',sans-serif;
+
+}
+/*header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),;
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
+.mobile{
+	display: none;
+}
+
+.laptop{
+	width: 100%;
+	height: 15vh;
+	padding-top: 5%;
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+	justify-content: space-between;
+	display: flex;
+	text-transform: uppercase;
+	align-items: center;
+
+}
+
+.laptop .logo{
+	width: 25%;
+	text-align: center;
+}
+
+.laptop .menu{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.laptop .menu a{
+	width: 25%;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+.laptop .menu a:first-child{
+	color: #00b894;
+}
+
+ main{
+ 	width: 100%;
+ 	height: 85vh;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	text-align: center;
+ 	color: #fff;
+ }
+
+  section h3{
+ 	font-size: 275%;
+ 	font-weight: 200;
+ 	letter-spacing: 25%;
+ 	text-transform: uppercase;
+ 	text-shadow: 1px 1px 5px #212121;
+ }
+
+section h1{
+	font-size: 250%;
+ 	font-weight: 700;
+ 	text-shadow: 25% 20% 30% #212121;	
+ 	text-transform: uppercase;
+ 	margin: 5% 0 4% 0;
+}
+ 
+section p{
+	font-size: 125%;
+	word-spacing: 5%;
+	margin-bottom: 5%;
+	text-shadow: 10% 10% 10% #212121;
+}
+
+.quote{
+display: block;
+}
+
+section  a{
+	padding: 2% 3%;
+	margin: 5%;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 100%;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1%;
+	transition: all .5s ease;
+}
+
+section .btnone{
+	background: #fff;
+	color: #000;
+}
+
+.btnone:hover{
+	background: #00b894;
+	color: #fff;
+}
+section .btntwo{
+	background: #fff;
+	color: #000;
+}
+
+.btntwo:hover{
+	background: #00b894;
+	color: #fff;
+}
+
+.change_content:after{
+	content: '';
+	animation: changetext 5s infinite linear;
+	color: #00b894;
+}
+
+
+	@keyframes changetext{
+	0%{ content: "Jogging"; }
+	20%{ content: "Dancing"; }
+	40%{ content: "weight lifting"; }
+	60%{ content: "yoga"; }
+	80%{ content: "stretching"; }
+	100%{ content: " tai chi "; }
+}
+
+.slider{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+	url(https://image.freepik.com/free-photo/female-athlete-running-outdoor_23-2148381961.jpg);
+	background-size: cover;	 
+	background-repeat: no-repeat;
+	animation: slide 5s infinite;
+}
+
+@keyframes slide{
+	20%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/silhouettes-sportive-women-dancing-zumba-near-sea-sunrise_176420-1491.jpg?size=626&ext=jpg);}
+
+	40%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/fitness-woman-weightlifting-workout-gym_155003-9544.jpg?size=626&ext=jpg);}
+
+	60%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/young-sporty-woman-practicing-yoga-pink-yoga-suit-sunrise-park_140725-14123.jpg?size=626&ext=jpg);}
+
+	80%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/woman-practicing-advanced-yoga-against-dark-urban-wall_1157-35858.jpg?size=626&ext=jpg);}
+
+	100%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/beautiful-woman-practicing-yoga_1385-1448.jpg?size=626&ext=jpg);}
+
+}
+}
+
+/*************************************************************************************************************************/
+
+@media only screen and (min-width: 992px){
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans',sans-serif;
+
+}
+/*header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),;
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
+.mobile{
+	display: none;
+}
+
+.laptop{
+	width: 100%;
+	height: 15vh;
+	background: rgba(0,0,0,0.3);
+	color: white;
+	justify-content: space-between;
+	display: flex;
+	text-transform: uppercase;
+	align-items: center;
+
+}
+
+.laptop .logo{
+	width: 25%;
+	text-align: center;
+}
+
+.laptop .menu{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.laptop .menu a{
+	width: 25%;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.laptop .menu a:first-child{
+	color: #00b894;
+}
+
+ main{
+ 	width: 100%;
+ 	height: 85vh;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	text-align: center;
+ 	color: white;
+ }
+
+ section h3{
+ 	font-size: 35px;
+ 	font-weight: 200;
+ 	letter-spacing: 3px;
+ 	text-shadow: 1px 1px 2px black;
+ }
+
+section h1{
+	font-size: 55px;
+ 	font-weight: 700;
+ 	text-shadow: 2px 1px 5px black;	
+ 	text-transform: uppercase;
+ 	margin: 30px 0 20px 0;
+}
+ 
+section p{
+	font-size: 25px;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px black;
+}
+
+.quote{
+display: block;
+}
+
+section  a{
+	padding: 12px 30px;
+	margin: 5px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all .5s ease;
+}
+
+section .btnone{
+	background: #fff;
+	color: #000;
+}
+
+.btnone:hover{
+	background: #00b894;
+	color: white;
+}
+section .btntwo{
+	background: #fff;
+	color: #000;
+}
+
+.btntwo:hover{
+	background: #00b894;
+	color: white;;
+}
+
+.change_content:after{
+	content: '';
+	animation: changetext 5s infinite linear;
+	color: #00b894;
+}
+
+	@keyframes changetext{
+	0%{ content: "Jogging"; }
+	20%{ content: "Dancing"; }
+	40%{ content: "weight lifting"; }
+	60%{ content: "yoga"; }
+	80%{ content: "stretching"; }
+	100%{ content: " tai chi "; }
+}
+
+.slider{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+	url(https://image.freepik.com/free-photo/female-athlete-running-outdoor_23-2148381961.jpg);
+	background-size: cover;	 
+	background-repeat: no-repeat;
+	animation: slide 5s infinite;
+}
+
+@keyframes slide{
+	20%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/silhouettes-sportive-women-dancing-zumba-near-sea-sunrise_176420-1491.jpg?size=626&ext=jpg);}
+
+	40%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/fitness-woman-weightlifting-workout-gym_155003-9544.jpg?size=626&ext=jpg);}
+
+	60%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/young-sporty-woman-practicing-yoga-pink-yoga-suit-sunrise-park_140725-14123.jpg?size=626&ext=jpg);}
+
+	80%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/woman-practicing-advanced-yoga-against-dark-urban-wall_1157-35858.jpg?size=626&ext=jpg);}
+
+	100%{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://img.freepik.com/free-photo/beautiful-woman-practicing-yoga_1385-1448.jpg?size=626&ext=jpg);}
+
+}
+}

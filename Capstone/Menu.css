@@ -1,0 +1,138 @@
+@media only screen and (min-width: 320px){
+*{
+	background: #F0E7D8;
+}
+
+h1{
+	font-family: cursive;
+	font-size: 375%;
+	display: block;
+	color: #EDDDD4;
+	background: #AB9B96;
+}
+
+div{
+	display: inline-block;
+	float: left;
+	background: linear-gradient(#EDBBB4 10%, #EDD2E0 50%) ;
+	width: 30%;
+	padding: 5%;
+	margin: 0;
+	height: 100vh;
+}
+
+img{
+	margin: 7% 0 7% 0;
+}
+header{
+	float: left;
+	width: 35%;
+	
+}
+
+p{
+	font-size: 200%;
+	color: #5C374C;
+	padding: 0 10%;
+}
+
+p::first-letter {
+  font-weight: bold;
+  font-size: 250%;
+
+}
+
+}
+
+@media only screen and (min-width: 992px){
+*{
+	background: #F0E7D8;
+}
+
+h1{
+	font-family: cursive;
+	font-size: 350%;
+	display: block;
+	color: #EDDDD4;
+	background: #AB9B96;
+}
+
+div{
+	display: inline-block;
+	float: left;
+	background: linear-gradient(#EDBBB4 10%, #EDD2E0 50%) ;
+	width: 35%;
+	padding: 5%;
+	margin: 0;
+	height: 100vh;
+}
+
+img{
+	margin: 7% 0 7% 0;
+}
+header{
+	float: left;
+	width: 35%;
+	
+}
+
+p{
+	font-size: 150%;
+	color: #5C374C;
+	padding: 0 10%;
+}
+
+p::first-letter {
+  font-weight: bold;
+  font-size: 200%;
+
+}
+}
+
+@media only screen and (min-width: 1200px){
+
+*{
+	background: #F0E7D8;
+}
+
+h1{
+	font-family: cursive;
+	font-size: 275%;
+	width: 100vw;
+	display: block;
+	color: #EDDDD4;
+	background: #AB9B96;
+}
+
+div{
+	display: inline-block;
+	float: left;
+	background: linear-gradient(#EDBBB4 10%, #EDD2E0 50%) ;
+	width: 25%;
+	padding: 5%;
+	margin: 0;
+	height: 100vh;
+}
+
+img{
+	margin: 7% 0 7% 0;
+	size: 75%
+}
+header{
+	float: left;
+	width: 35%;
+	
+}
+
+p{
+	font-size: 150%;
+	color: #5C374C;
+	padding: 0 2%;
+}
+
+p::first-letter {
+  font-weight: bold;
+  font-size: 250%;
+
+}
+}
