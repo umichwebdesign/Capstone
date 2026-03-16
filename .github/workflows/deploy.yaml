@@ -20,7 +20,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload the entire repository content to the artifact (assuming your index.html is at the root)
-          path: './Capstone' 
+          path: './Capstone/'
   deploy:
     environment:
       name: github-pages
