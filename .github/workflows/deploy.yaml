@@ -1,0 +1,33 @@
+name: Deploy static site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Triggers the workflow on push events to the main branch
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your repository
+        uses: actions/checkout@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload the entire repository content to the artifact (assuming your index.html is at the root)
+          path: './Capstone' 
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
